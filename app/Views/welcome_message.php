@@ -256,8 +256,8 @@
 			Learn
 		</h2>
 
-		<p>The User Guide contains an introduction, tutorial, a number of "how to"
-			guides, and then reference documentation for the components that make up
+		<p>La guía de introducción del usuario, tutorial, unas cuantas guiás de "como hacer"
+			,and then reference documentation for the components that make up
 			the framework. Check the <a href="https://codeigniter4.github.io/userguide"
 			target="_blank">User Guide</a> !</p>
 
