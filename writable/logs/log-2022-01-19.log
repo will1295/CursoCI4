@@ -1,0 +1,31 @@
+CRITICAL - 2022-01-19 17:19:13 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\CursoCI4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('VistasSeparadas')
+#1 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('VistasSeparadas')
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 17:23:59 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\CursoCI4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('VistasSeparadas')
+#1 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('VistasSeparadas')
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 17:24:57 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\CursoCI4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('VistasSeparadas')
+#1 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('VistasSeparadas')
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 17:41:16 --> Call to undefined function suma()
+#0 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/body', Array, true)
+#3 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(9): view('ejemplo/body')
+#4 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

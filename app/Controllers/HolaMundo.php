@@ -9,4 +9,11 @@ class HolaMundo extends BaseController
         $datos['mensaje'] = "Este es un mensaje";
         return view('hola_view', $datos);
     }
+
+    public function subindex()
+    {
+        $datos['mensaje'] = "Este es un mensaje desde el subindex";
+        return view('hola_view', $datos);
+    }
+
 }

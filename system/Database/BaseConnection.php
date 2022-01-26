@@ -59,7 +59,7 @@ abstract class BaseConnection implements ConnectionInterface
      *
      * @var int|string
      */
-    protected $port = '';
+    protected $port = '8080';
 
     /**
      * Hostname

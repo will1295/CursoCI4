@@ -1,0 +1,77 @@
+CRITICAL - 2022-01-25 08:28:00 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/body', Array, true)
+#3 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(14): view('ejemplo/body', Array)
+#4 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-25 09:02:16 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/body', Array, true)
+#3 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(14): view('ejemplo/body', Array)
+#4 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-25 17:01:51 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/body', Array, true)
+#3 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(14): view('ejemplo/body', Array)
+#4 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-25 17:14:32 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\CursoCI4\app\Views\ejemplo\body.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/body', Array, true)
+#4 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(15): view('ejemplo/body', Array)
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#7 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-25 17:14:52 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\CursoCI4\app\Views\ejemplo\body.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/body', Array, true)
+#4 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(15): view('ejemplo/body', Array)
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#7 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-25 17:20:05 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\CursoCI4\app\Views\ejemplo\body.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/body', Array, true)
+#4 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(17): view('ejemplo/body', Array)
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#7 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-25 17:29:40 --> Undefined variable $user
+#0 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#3 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-25 17:40:32 --> Undefined variable $user
+#0 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#3 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

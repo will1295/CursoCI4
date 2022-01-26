@@ -1,0 +1,66 @@
+CRITICAL - 2022-01-22 12:07:25 --> Undefined variable $name
+#0 C:\xampp\htdocs\CursoCI4\app\Views\ejemplo\body.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/body', Array, true)
+#4 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(13): view('ejemplo/body', Array)
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#7 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-22 12:11:29 --> Undefined variable $name
+#0 C:\xampp\htdocs\CursoCI4\app\Views\ejemplo\body.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/body', Array, true)
+#4 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(13): view('ejemplo/body', Array)
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#7 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-22 12:21:44 --> Undefined variable $name
+#0 C:\xampp\htdocs\CursoCI4\app\Views\ejemplo\body.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/body', Array, true)
+#4 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(13): view('ejemplo/body', Array)
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#7 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-22 12:21:52 --> Undefined variable $name
+#0 C:\xampp\htdocs\CursoCI4\app\Views\ejemplo\body.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/body', Array, true)
+#4 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(13): view('ejemplo/body', Array)
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#7 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-22 12:21:53 --> Undefined variable $name
+#0 C:\xampp\htdocs\CursoCI4\app\Views\ejemplo\body.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/body', Array, true)
+#4 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(13): view('ejemplo/body', Array)
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#7 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-22 12:22:56 --> Undefined variable $name
+#0 C:\xampp\htdocs\CursoCI4\app\Views\ejemplo\body.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/body', Array, true)
+#4 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(13): view('ejemplo/body', Array)
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#7 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
