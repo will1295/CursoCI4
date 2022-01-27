@@ -21,7 +21,16 @@ class UserModel extends Model
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
     protected $deletedField  = 'deleted_at';
-    protected $validationRules    = [];
-    protected $validationMessages = [];
-    protected $skipValidation     = false;
+    protected $validationRules    = [
+        'name' => 'required|alpha_numeric_space',
+        'email' => 'required|valid_email|is_unique[users.email]',
+        
+    ];
+    protected $validationMessages = [
+        'email'=> [
+            'valid_email' => 'Email incorrecto intentelo de nuevo',
+            'is_unique' => 'El email ingresado ya se encuentra registrado, intente con otro.',
+        ],
+    ];
+    protected $skipValidation = false;
 }

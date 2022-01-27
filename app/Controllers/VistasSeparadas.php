@@ -43,23 +43,37 @@ class VistasSeparadas extends BaseController
         //Actualizacion de registros multiples por cualquier campo en la tabla
         //$userModel->whereIn('name',['Mauricio','Manuel'])->set(['email'=>'nombres@email.com'])->update();
 
+
+
         //Uso del save
         /*
-        $data=[
-             
-            'name'=>"Alexander",
-            'email'=>"alexander@email.com"
-        ];
-        $userModel->save($data);
-        */
-
-        
+ 
         $data=[
             'id'=>"14",
             'name'=>"Alex",
             'email'=>"alexander@email.com"
         ];
         $userModel->save($data);
+        */
+
+
+        //Delete 
+        //$userModel->delete(14);
+        //$userModel->delete([4,7]);\
+        //$userModel->where('id',3)->delete();
+        //$userModel->where('name','Diana')->delete();
+        //Uso del purge
+        //$userModel->purgeDeleted();
+
+        $data=[
+            'name'=>"Maria",
+            'email'=>"maria@email.com"
+        ];
+        if($userModel->save($data)===false){
+            var_dump($userModel->errors());
+        }
+        $userModel->insert($data);
+
 
 
         $user = $userModel->withDeleted()->findAll();
