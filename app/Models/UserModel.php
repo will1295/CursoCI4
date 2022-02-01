@@ -33,4 +33,18 @@ class UserModel extends Model
         ],
     ];
     protected $skipValidation = false;
+
+    protected function AgregarInsert(array $data){
+        $data['data']['name'] = $data['data']['name']." nuevo";
+        return $data;
+    }
+
+    protected function AgregarUpdate(array $data){
+        $data['data']['name'] = $data['data']['name']." actualizado";
+        return $data;
+    }
+    
+
+    protected $beforeInsert = ['AgregarInsert'];
+    protected $beforeUpdate = ['AgregarUpdate'];
 }

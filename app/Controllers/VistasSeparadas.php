@@ -65,7 +65,7 @@ class VistasSeparadas extends BaseController
         //Uso del purge
         //$userModel->purgeDeleted();
 
-        $data=[
+      /*  $data=[
             'name'=>"Maria",
             'email'=>"maria@email.com"
         ];
@@ -74,8 +74,8 @@ class VistasSeparadas extends BaseController
         }
         $userModel->insert($data);
 
-
-
+*/
+        //$userModel->whereIn('id',['18'])->set(['name'=>'Julita'])->update();
         $user = $userModel->withDeleted()->findAll();
         $user = array('user'=>$user);
 

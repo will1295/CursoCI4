@@ -1,0 +1,50 @@
+CRITICAL - 2022-01-31 17:09:26 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/body', Array, true)
+#3 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(85): view('ejemplo/body', Array)
+#4 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 17:11:01 --> Undefined variable $user
+#0 C:\xampp\htdocs\CursoCI4\app\Views\ejemplo\body.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/body', Array, true)
+#4 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(84): view('ejemplo/body', Array)
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#7 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 17:12:29 --> Undefined variable $user
+#0 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83)
+#1 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#3 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-31 17:15:25 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name,  given
+#0 C:\xampp\htdocs\CursoCI4\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('')
+#1 C:\xampp\htdocs\CursoCI4\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('')
+#2 C:\xampp\htdocs\CursoCI4\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('')
+#3 C:\xampp\htdocs\CursoCI4\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult('')
+#4 C:\xampp\htdocs\CursoCI4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(79): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#7 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#8 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-31 17:34:15 --> AgregarUpdate is not a valid Model Event callback.
+#0 C:\xampp\htdocs\CursoCI4\system\BaseModel.php(1453): CodeIgniter\Database\Exceptions\DataException::forInvalidMethodTriggered('AgregarUpdate')
+#1 C:\xampp\htdocs\CursoCI4\system\BaseModel.php(859): CodeIgniter\BaseModel->trigger('beforeUpdate', Array)
+#2 C:\xampp\htdocs\CursoCI4\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#3 C:\xampp\htdocs\CursoCI4\app\Controllers\VistasSeparadas.php(78): CodeIgniter\Model->update()
+#4 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\VistasSeparadas->index()
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VistasSeparadas))
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
