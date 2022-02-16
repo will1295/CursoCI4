@@ -23,7 +23,7 @@ class UserModel extends Model
     protected $deletedField  = 'deleted_at';
     protected $validationRules    = [
         'name' => 'required|alpha_numeric_space',
-        'email' => 'required|valid_email|is_unique[users.email]',
+        'email' => 'required|valid_email|is_unique[users.email,id,{id}]',
         
     ];
     protected $validationMessages = [
@@ -45,6 +45,6 @@ class UserModel extends Model
     }
     
 
-    protected $beforeInsert = ['AgregarInsert'];
-    protected $beforeUpdate = ['AgregarUpdate'];
+   // protected $beforeInsert = ['AgregarInsert'];
+   //protected $beforeUpdate = ['AgregarUpdate'];
 }

@@ -1,0 +1,133 @@
+CRITICAL - 2022-02-14 17:22:53 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\CursoCI4\app\Views\ejemplo\indexcrud.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/indexcr...', Array, true)
+#4 C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php(20): view('ejemplo/indexcr...', Array)
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->index()
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#7 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 17:39:46 --> Undefined constant "App\Controllers\url"
+#0 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Editar()
+#1 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 17:40:09 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$url
+#0 C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Editar()
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#3 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-14 17:40:35 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$url
+#0 C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Editar()
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#3 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-14 17:40:39 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$url
+#0 C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Editar()
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#3 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-14 17:41:02 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$url
+#0 C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Editar()
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#3 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-14 17:42:10 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Editar()
+#1 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 17:42:15 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Editar()
+#1 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 17:42:41 --> Undefined array key 0
+#0 C:\xampp\htdocs\CursoCI4\app\Views\ejemplo\formulario.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/formula...', Array, true)
+#4 C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php(93): view('ejemplo/formula...', Array)
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Editar()
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#7 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 17:42:57 --> Request URI segment is out of range: 2
+#0 C:\xampp\htdocs\CursoCI4\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php(87): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Editar()
+#3 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#4 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-14 17:43:45 --> Undefined array key 0
+#0 C:\xampp\htdocs\CursoCI4\app\Views\ejemplo\formulario.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/formula...', Array, true)
+#4 C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php(93): view('ejemplo/formula...', Array)
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Editar()
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#7 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 17:45:43 --> Request URI segment is out of range: 2
+#0 C:\xampp\htdocs\CursoCI4\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php(87): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Editar()
+#3 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#4 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-14 17:59:42 --> Undefined array key 0
+#0 C:\xampp\htdocs\CursoCI4\app\Views\ejemplo\formulario.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/formula...', Array, true)
+#4 C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php(99): view('ejemplo/formula...', Array)
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Editar()
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#7 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 18:00:26 --> Undefined array key 0
+#0 C:\xampp\htdocs\CursoCI4\app\Views\ejemplo\formulario.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/formula...', Array, true)
+#4 C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php(99): view('ejemplo/formula...', Array)
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Editar()
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#7 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 18:03:04 --> Request URI segment is out of range: 2
+#0 C:\xampp\htdocs\CursoCI4\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php(93): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Editar()
+#3 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#4 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-14 18:04:15 --> Request URI segment is out of range: 2
+#0 C:\xampp\htdocs\CursoCI4\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php(93): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Editar()
+#3 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#4 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

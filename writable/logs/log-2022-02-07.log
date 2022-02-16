@@ -1,0 +1,28 @@
+CRITICAL - 2022-02-07 17:26:12 --> CodeIgniter\BaseModel::findColumn(): Argument #1 ($columnName) must be of type string, null given, called in C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php on line 56
+#0 C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php(56): CodeIgniter\BaseModel->findColumn(NULL)
+#1 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Busqueda()
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#3 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 17:27:22 --> CodeIgniter\BaseModel::findColumn(): Argument #1 ($columnName) must be of type string, array given, called in C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php on line 56
+#0 C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php(56): CodeIgniter\BaseModel->findColumn(Array)
+#1 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Busqueda()
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#3 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 17:27:46 --> CodeIgniter\BaseModel::findColumn(): Argument #1 ($columnName) must be of type string, null given, called in C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php on line 56
+#0 C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php(56): CodeIgniter\BaseModel->findColumn(NULL)
+#1 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Busqueda()
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#3 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 17:43:57 --> Undefined variable $userModel
+#0 C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Busqueda()
+#2 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#3 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

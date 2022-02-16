@@ -1,0 +1,11 @@
+CRITICAL - 2022-02-02 17:26:13 --> Undefined variable $user
+#0 C:\xampp\htdocs\CursoCI4\app\Views\ejemplo\body.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\CursoCI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CursoCI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CursoCI4\system\Common.php(1089): CodeIgniter\View\View->render('ejemplo/body', Array, true)
+#4 C:\xampp\htdocs\CursoCI4\app\Controllers\CrudForm.php(34): view('ejemplo/body')
+#5 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(825): App\Controllers\CrudForm->Guardar()
+#6 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudForm))
+#7 C:\xampp\htdocs\CursoCI4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CursoCI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
