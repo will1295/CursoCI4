@@ -1,0 +1,33 @@
+ERROR - 2022-03-07 16:53:26 --> Invalid default value for 'created_at'
+ERROR - 2022-03-07 16:54:17 --> Unknown table 'cursoci4.usersc'
+ERROR - 2022-03-07 16:54:43 --> Invalid default value for 'created_at'
+ERROR - 2022-03-07 16:55:13 --> Unknown table 'cursoci4.usersc'
+ERROR - 2022-03-07 16:55:15 --> Invalid default value for 'created_at'
+ERROR - 2022-03-07 16:55:31 --> Unknown table 'cursoci4.usersc'
+ERROR - 2022-03-07 16:56:21 --> Invalid default value for 'created_at'
+ERROR - 2022-03-07 16:58:27 --> Invalid default value for 'created_at'
+ERROR - 2022-03-07 17:00:54 --> Unknown table 'cursoci4.usersc'
+ERROR - 2022-03-07 17:06:04 --> Invalid default value for 'created_at'
+ERROR - 2022-03-07 17:08:32 --> Unknown table 'cursoci4.empleados2'
+ERROR - 2022-03-07 17:11:55 --> Unknown table 'cursoci4.usuariosc'
+ERROR - 2022-03-07 17:11:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(100) NOT NULL,
+	`empleado` INT(11) NOT NULL,
+	CONSTRAINT `pk_usuariosc` PRIM...' at line 5
+ERROR - 2022-03-07 17:12:12 --> Unknown table 'cursoci4.usuariosc'
+ERROR - 2022-03-07 17:12:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(100) NOT NULL,
+	`empleado` INT(11) NOT NULL,
+	CONSTRAINT `pk_usuariosc` PRIM...' at line 5
+ERROR - 2022-03-07 17:12:38 --> Unknown table 'cursoci4.usuariosc'
+ERROR - 2022-03-07 17:13:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(100) NOT NULL,
+	`empleado` INT(11) NOT NULL,
+	CONSTRAINT `pk_usuariosc` PRIM...' at line 5
+ERROR - 2022-03-07 17:14:15 --> Unknown table 'cursoci4.usuariosc'
+ERROR - 2022-03-07 17:16:33 --> Invalid default value for 'created_at'
+ERROR - 2022-03-07 17:17:10 --> Unknown table 'cursoci4.usuariosc'
+ERROR - 2022-03-07 17:17:42 --> Invalid default value for 'created_at'
+ERROR - 2022-03-07 17:18:01 --> Unknown table 'cursoci4.usuariosc'
+ERROR - 2022-03-07 17:21:05 --> Invalid default value for 'created_at'
+ERROR - 2022-03-07 17:28:52 --> Unknown column 'nombres_e' in 'field list'
+ERROR - 2022-03-07 17:29:32 --> Cannot add or update a child row: a foreign key constraint fails (`cursoci4`.`empleados`, CONSTRAINT `empleados_departamento_foreign` FOREIGN KEY (`departamento`) REFERENCES `departamento` (`departamento_id`))
+ERROR - 2022-03-07 17:34:42 --> Unknown column 'nombres_u' in 'field list'
+ERROR - 2022-03-07 17:35:10 --> Cannot add or update a child row: a foreign key constraint fails (`cursoci4`.`usuariosc`, CONSTRAINT `usuariosc_empleado_foreign` FOREIGN KEY (`empleado`) REFERENCES `empleados` (`empleado_id`))

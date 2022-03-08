@@ -1,0 +1,15 @@
+ERROR - 2022-03-02 17:35:28 --> Duplicate column name 'telefono'
+ERROR - 2022-03-02 17:37:16 --> Duplicate column name 'telefono'
+ERROR - 2022-03-02 17:43:44 --> Duplicate column name 'telefono'
+ERROR - 2022-03-02 17:43:45 --> Can't create table `cursoci4`.`empleados` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-03-02 17:45:20 --> Unknown table 'cursoci4.empleados'
+ERROR - 2022-03-02 17:45:28 --> Duplicate column name 'telefono'
+ERROR - 2022-03-02 17:45:28 --> Can't create table `cursoci4`.`empleados` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-03-02 17:49:11 --> Unknown table 'cursoci4.empleados'
+ERROR - 2022-03-02 17:49:31 --> Duplicate column name 'telefono'
+ERROR - 2022-03-02 17:49:31 --> Can't create table `cursoci4`.`empleados` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-03-02 17:50:16 --> Unknown table 'cursoci4.empleados'
+ERROR - 2022-03-02 17:50:30 --> Duplicate column name 'telefono'
+ERROR - 2022-03-02 17:51:00 --> Can't create table `cursoci4`.`empleados` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-03-02 17:52:32 --> Can't create table `cursoci4`.`empleados` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-03-02 17:53:26 --> Unknown table 'cursoci4.empleados'

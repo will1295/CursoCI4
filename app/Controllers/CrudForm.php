@@ -115,5 +115,13 @@ class CrudForm extends BaseController
 
     }
 
+    public function ManipularImagen(){
+        $image = \Config\Services::image()
+        ->withFile('codeigniter.jpg')
+        ->fit(100, 100, 'center')
+        ->save('codeigniter2.jpg');
+        return view('ejemplo/imagen');
+    }
+
 
 }

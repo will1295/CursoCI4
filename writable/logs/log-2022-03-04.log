@@ -1,0 +1,22 @@
+ERROR - 2022-03-04 13:58:10 --> Can't DROP COLUMN `telefono`; check that it exists
+ERROR - 2022-03-04 13:58:10 --> Unknown column 'user' in 'users'
+ERROR - 2022-03-04 13:58:10 --> Duplicate column name 'pass'
+ERROR - 2022-03-04 13:58:45 --> Can't DROP FOREIGN KEY `empleados_usuarios_foreign`; check that it exists
+ERROR - 2022-03-04 13:58:45 --> Can't DROP COLUMN `usuarios`; check that it exists
+ERROR - 2022-03-04 13:58:45 --> Can't DROP COLUMN `telefono`; check that it exists
+ERROR - 2022-03-04 13:58:48 --> Unknown column 'user' in 'users'
+ERROR - 2022-03-04 13:58:48 --> Duplicate column name 'pass'
+ERROR - 2022-03-04 14:00:38 --> Can't DROP COLUMN `telefono`; check that it exists
+ERROR - 2022-03-04 14:00:46 --> Unknown column 'user' in 'users'
+ERROR - 2022-03-04 14:00:46 --> Duplicate column name 'pass'
+ERROR - 2022-03-04 14:07:06 --> Can't DROP COLUMN `telefono`; check that it exists
+ERROR - 2022-03-04 14:07:08 --> Unknown column 'user' in 'users'
+ERROR - 2022-03-04 14:10:22 --> Unknown column 'user' in 'users'
+ERROR - 2022-03-04 14:10:46 --> Unknown column 'user' in 'users'
+ERROR - 2022-03-04 14:10:46 --> Duplicate column name 'pass'
+ERROR - 2022-03-04 14:11:16 --> Can't DROP COLUMN `telefono`; check that it exists
+ERROR - 2022-03-04 14:11:18 --> Unknown column 'user' in 'users'
+ERROR - 2022-03-04 14:11:18 --> Duplicate column name 'pass'
+ERROR - 2022-03-04 14:53:26 --> Can't DROP COLUMN `telefono`; check that it exists
+ERROR - 2022-03-04 14:53:26 --> Unknown column 'user' in 'users'
+ERROR - 2022-03-04 14:54:58 --> Unknown column 'user' in 'users'

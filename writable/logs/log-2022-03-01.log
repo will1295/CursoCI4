@@ -1,0 +1,5 @@
+ERROR - 2022-03-01 17:41:06 --> Table 'users' already exists
+ERROR - 2022-03-01 17:45:27 --> Table 'users' already exists
+ERROR - 2022-03-01 17:59:26 --> Duplicate column name 'telefono'
+ERROR - 2022-03-01 18:01:11 --> Duplicate column name 'telefono'
+ERROR - 2022-03-01 18:03:58 --> Duplicate column name 'telefono'

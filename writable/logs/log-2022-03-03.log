@@ -1,0 +1,16 @@
+ERROR - 2022-03-03 17:40:20 --> Duplicate column name 'pass'
+ERROR - 2022-03-03 17:57:33 --> Duplicate column name 'empleado'
+ERROR - 2022-03-03 18:00:05 --> Duplicate column name 'empleado'
+ERROR - 2022-03-03 18:00:26 --> Duplicate column name 'empleado'
+ERROR - 2022-03-03 18:04:00 --> Table 'users' already exists
+ERROR - 2022-03-03 18:04:22 --> Table 'users' already exists
+ERROR - 2022-03-03 18:05:27 --> Table 'users' already exists
+ERROR - 2022-03-03 18:06:10 --> Duplicate column name 'empleado'
+ERROR - 2022-03-03 18:06:44 --> Duplicate column name 'empleado'
+ERROR - 2022-03-03 18:07:08 --> Duplicate column name 'empleado'
+ERROR - 2022-03-03 18:15:18 --> Can't DROP FOREIGN KEY `empleados_usuarios_foreign`; check that it exists
+ERROR - 2022-03-03 18:15:18 --> Can't DROP COLUMN `usuarios`; check that it exists
+ERROR - 2022-03-03 18:15:18 --> Unknown column 'user' in 'users'
+ERROR - 2022-03-03 18:15:44 --> Unknown column 'user' in 'users'
+ERROR - 2022-03-03 18:16:52 --> Unknown column 'user' in 'users'
+ERROR - 2022-03-03 18:16:52 --> Duplicate column name 'pass'
